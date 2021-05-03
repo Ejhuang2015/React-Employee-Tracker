@@ -8,13 +8,14 @@ function Search() {
         <div>
             <div className="searchBar">
                 <input
-                    type="text"
+                    type="search"
                     value={search}
                     onChange={event => setSearch(event.target.value)}
+                    placeholder="Search by Name"
                 />
-                <button onClick={() => setSearch("")}>
+                {/* <button onClick={() => setSearch("")}>
                     X
-                </button>
+                </button> */}
             </div>
 
             <div className="results">
