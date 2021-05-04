@@ -13,9 +13,6 @@ function Search() {
                     onChange={event => setSearch(event.target.value)}
                     placeholder="Search by Name"
                 />
-                {/* <button onClick={() => setSearch("")}>
-                    X
-                </button> */}
             </div>
 
             <div className="results">

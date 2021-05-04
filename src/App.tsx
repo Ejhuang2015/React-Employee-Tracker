@@ -4,7 +4,8 @@ import './lightBlueStyle.css';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App centered">
+      <h1>Employee Directory</h1>
       <Search />
     </div>
   );
